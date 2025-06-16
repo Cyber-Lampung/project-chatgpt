@@ -8,6 +8,7 @@
 html{
     overflow-x: hidden;
     scroll-behavior: smooth;
+    padding-bottom: 10000px;
 }
 
 header{
@@ -41,12 +42,17 @@ nav ul li a{
 }
 
 .hero{
+    width: 1700px;
+    max-width: 100%;
     z-index: 10;
 }
 
 .hero img{
-    width: 1538px;
     height: 90vh;
+    width: 1600px;
+    object-fit: cover;
+    max-width: 100%;
+    inset: 0 0 0 0;
 }
 
 .content{
@@ -179,6 +185,244 @@ nav ul li a{
     border: solid 2px black;
     border-radius: 60px;
 }
+
+#team {
+    padding-top: 100px;
+}
+
+.grid-team{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 40px;
+    background-color: whitesmoke;
+    padding: 1rem;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+
+
 .username{
     padding-top: 100px;
+}
+
+.visi-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+}
+
+.visi{
+    width: 350px;
+    height: 200px;
+    border-radius: 30px;
+    border: solid 3px transparent;
+    background-color: rgba(211, 211, 211, 0.686);
+    color: rgb(73, 72, 72);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    transition: all 1s ease ;
+    cursor: pointer;
+    max-width: 80%;
+}
+
+.visi:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 3px 20px 1px black;
+    color: black;
+}
+
+.container-contact{
+    width: 400px;
+    height: 540px;
+    border: solid 2px rgb(0, 0, 0);
+    padding: 40px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 40px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-in{
+    text-align: center;
+}
+
+.email{
+    text-align: start;
+    letter-spacing: 2px;
+}
+
+#email{ 
+    margin-top: 10px;
+    padding: 7px;
+    width: 300px;
+    outline: none;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+.user{
+    padding-top: 40px;
+    text-align: start;
+    letter-spacing: 1px;
+}
+
+#username{
+    padding: 7px;
+    width: 300px;
+    border: solid 2px black;
+    font-family: sans-serif;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.comment{
+    padding-top: 30px;
+    text-align: start;
+    letter-spacing: 1px;
+}
+
+#comment{
+    margin-top: 10px;
+    border: solid 2px black;
+    width: 300px;
+    height: 170px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.btn-send{
+    padding-top: 20px;
+}
+
+.btn{
+    width: 300px;
+    border-radius: 10px;
+    height: 35px;
+    border: solid 2px black;
+    outline: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 700;
+    background-color: white, transparent;
+    background: linear-gradient(to left , blue , red);
+    color: white;
+}
+
+.medsos-aside{
+    padding-top: 60px;
+    width: 60%;
+    text-align: center;
+}
+
+.container-ig{
+    width: 240px;
+    height: 300px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+
+.container-aside-image img{
+    width: 60px;
+    height: 60px;
+    border-radius: 80px;
+}
+
+.hero-section-media-social{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+}
+
+.border-telegram{
+    width: 250px;
+    height: 300px;
+    border: solid 2px black;
+    border-radius: 10px;   
+    background-color: whitesmoke;
+}
+
+.navbar-telegram{
+    display: flex;
+    gap: 1rem;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.profile-telegram{
+    padding-top: 20px;
+}
+
+.profile-telegram img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.username-acount{
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.icon-tele{
+    display: flex;
+    padding-top: 30px;
+    gap: 2rem;
+    font-size: 10px;
+    justify-content: center;
+}
+
+.icon-tele i{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.aside-telegram{
+    font-size: 10px;
+    text-align: start;
+    background-color: white;
+    width: auto;
+    height: 60px;
+    align-content: center;
+    margin: 30px 4% 4% 4%;
+    font-family: sans-serif;
+    outline: none;
+    border-radius: 20px;
+}
+hr{
+    background-color: grey;
+    height: 2px;
+    border: none;
+}
+
+.text1{
+    padding-bottom: 10px;
+    color: blue;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.text2{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: red;
+    font-weight: 700;
 }
